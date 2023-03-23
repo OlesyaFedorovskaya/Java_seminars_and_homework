@@ -20,6 +20,15 @@ public class Homework {
         Random random = new Random();
         int i = new Random().nextInt(2000);
         System.out.println("Случайное целое число в диапазоне от 0 до 2000 = " + i);
+
+        // 2. Посчитать и сохранить в n номер старшего значащего бита выпавшего числа
+
+        int j;
+        System.out.println("Число i в двоичном коде = " + Integer.toBinaryString(i));
+        j = Integer.toBinaryString(i).length();
+        System.out.println("Номер старшего значащего бита выпавшего числа = " + j);
+
+        //
         
     }
 }
