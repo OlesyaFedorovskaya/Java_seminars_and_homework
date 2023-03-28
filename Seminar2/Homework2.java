@@ -38,14 +38,14 @@ System.out.println(builder2.append(3).append(" ").append("+").append(" ").append
                             .append(56).append(" ").append("=").append(" ").append(168));
 
 // Замените символ “=” на слово “равно”. Используйте методы StringBuilder.insert(),StringBuilder.deleteCharAt().
-
-
-
 // Замените символ “=” на слово “равно”. Используйте методы StringBuilder.replace().
 
-
-
-// *Сравнить время выполнения пунка 6 со строкой содержащей 10000 символов "=" средствами String и StringBuilder.
+String str = "3 + 56 = 59";
+StringBuilder builder3 = new StringBuilder(str);
+System.out.println(builder3.deleteCharAt(7));
+System.out.println(builder3.insert(7, "равно"));
+System.out.println(builder3.replace(7,12,"="));
+System.out.println(builder3.replace(7, 7, "равно").deleteCharAt(12));
 
     }
     
