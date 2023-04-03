@@ -88,3 +88,8 @@ public class Main3 {
     }
 
 }
+
+/*
+https://github.com/OlesyaFedorovskaya/Java_seminars_and_homework/blob/main/Seminar3/Homework3.java
+Федоровская Олеся 4992 группа
+*/
