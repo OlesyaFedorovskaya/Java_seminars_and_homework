@@ -27,11 +27,7 @@ package Seminar5;
 *Популярность не имён а номеров телефонов
  */
 
-import java.net.NetworkInterface;
 import java.util.*;
-
-import javax.annotation.processing.Generated;
-import javax.lang.model.util.Elements.Origin;
 
 public class Homework5 {
     static Random random = new Random();
